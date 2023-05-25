@@ -1,0 +1,39 @@
+.contact h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.contact{
+    max-width: 90rem;
+    margin: .1rem auto;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: rebeccapurple;
+    color: rgb(119, 52, 52);
+    border-radius: .1rem;
+}
+
+.contact .input-box,
+.contact textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: rgb(119, 52, 52);
+    background: rebeccapurple;
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+.contact .input-box input{
+    width: 60%;
+    background: rebeccapurple;
+    color: rgb(119, 52, 52);
+}
